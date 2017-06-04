@@ -56,7 +56,7 @@ Request request = new Request(
 after which getting your response is as easy as calling a single line of code:
 
 ```java
-Response response = analyze(request, apiKey);
+Response response = Vision.analyze(request, apiKey);
 System.out.println(new Gson().toJson(response));
 ```
 
