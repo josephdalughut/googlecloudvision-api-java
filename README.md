@@ -84,7 +84,7 @@ System.out.println(firstWebEntity.description);
 If the Cloud Vision Api returns with an error, you can find it in the same `Response` object like so:
 
 ```java
- AnnotateImageResponse.Status status = response.responses[0].error;
+AnnotateImageResponse.Status status = response.responses[0].error;
 int statusCode = status.code;
 String errorMessage = status.message;
 ```
