@@ -17,7 +17,9 @@ Here's their description:
 
 ## How to use this.
 
-To make use of this, first you need a Google Cloud project, and an Api-key:
+Get a copy of the jar file [(googlecloudvision-java-0.1.0.jar)](https://github.com/josephdalughut/googlecloudvision-api-java/blob/master/jar/googlecloudvision-java-0.1.0.jar) and build into your java project
+
+You'll then need a Google Cloud project, and an Api-key:
 
 First, login to your google account at [Google Cloud Console](https://console.cloud.google.com).
 
